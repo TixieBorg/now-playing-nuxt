@@ -1,0 +1,35 @@
+{
+  "name": "now-playing-static",
+  "version": "1.0.0",
+  "description": "Handpicked Albums by the Glitch Family",
+  "author": "Tixie",
+  "private": true,
+  "scripts": {
+    "dev": "BASE_URI=https://music.glitch.family nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.2.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-standard": "^4.0.1",
+    "lqip-loader": "^2.2.0",
+    "node-sass": "^4.13.0",
+    "responsive-loader": "^1.2.0",
+    "sass-loader": "^8.0.0",
+    "sharp": "^0.23.2"
+  }
+}
